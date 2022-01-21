@@ -9,21 +9,6 @@
   </head>
   <body>
     <div class="center"><h1>JOEL</h1></div>
-    <div class="cursor rounded"></div>
-    <script>
-    const cursorRounded = document.querySelector('.rounded');
-      
-      
-      const moveCursor = (e)=> {
-        const mouseY = e.clientY;
-        const mouseX = e.clientX;
-         
-        cursorRounded.style.transform = `translate3d(${(mouseX-15)}px, ${(mouseY-15)}px, 0)`;
 
-       
-      }
-      
-      window.addEventListener('mousemove', moveCursor)
-      </script>
   </body>
 </html>
