@@ -31,6 +31,14 @@ h1 {
 }
 h1:focus,h1:hover {
     animation: colorChange 7s infinite ease-in-out;
+    
+    }
+
+   @media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [h1] {
+    animation: colorChange 7s infinite ease-in-out;
+  }
 
 
 }
