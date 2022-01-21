@@ -29,7 +29,7 @@ body  {
     h1 {
         font-family: 'Bebas Neue', cursive;
 
-        font-size: 20vw;
+        font-size: 25vw;
         -webkit-text-fill-color: rgb(10, 27, 43); /* Will override color (regardless of order) */
         -webkit-text-stroke-width: 1px;
         -webkit-text-stroke-color: rgb(255, 255, 255);
