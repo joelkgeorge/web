@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML 5 Boilerplate</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="center"><h1>JOEL</h1></div>
+    <div class="cursor rounded"></div>
+    <script>
+    const cursorRounded = document.querySelector('.rounded');
+      
+      
+      const moveCursor = (e)=> {
+        const mouseY = e.clientY;
+        const mouseX = e.clientX;
+         
+        cursorRounded.style.transform = `translate3d(${(mouseX-15)}px, ${(mouseY-15)}px, 0)`;
+
+       
+      }
+      
+      window.addEventListener('mousemove', moveCursor)
+      </script>
+  </body>
+</html>
