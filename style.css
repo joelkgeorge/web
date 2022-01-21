@@ -17,9 +17,26 @@ body  {
     transform: translate(-50%,-50%);
     
 }
+.rounded{
+    width: 30px;
+    height: 30px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    transition-delay: 0.008s;
 
 }
+@media screen and (max-width:720px) {
+    h1 {
+        font-family: 'Bebas Neue', cursive;
 
+        font-size: 20vw;
+        -webkit-text-fill-color: rgb(10, 27, 43); /* Will override color (regardless of order) */
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: rgb(255, 255, 255);
+        transform: scale(1); 
+        animation: colorChange 7s infinite ease-in-out;
+    }
+}
 h1 {
     font-family: 'Bebas Neue', cursive;
 
@@ -31,14 +48,6 @@ h1 {
 }
 h1:focus,h1:hover {
     animation: colorChange 7s infinite ease-in-out;
-    
-    }
-
-   @media only screen and (max-width: 768px) {
-  /* For mobile phones: */
-  h1 {
-    animation: colorChange 7s infinite ease-in-out;
-  }
 
 
 }
